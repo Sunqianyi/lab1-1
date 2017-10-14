@@ -27,7 +27,7 @@ public class Main {
     private int[] dist;     // 表示当前点到源点的最短路径长度
     private int[] prev;     // 记录当前点的前一个结点
     private int[][] c;   // 记录图的两点间路径长度
-    private int line;             // 图的结点数和路径数
+    private int line;
     public  int flag=0;
     public  Main()throws Exception{
         JFrame frame = new JFrame("软件工程实验一");
