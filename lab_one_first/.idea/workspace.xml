@@ -15,11 +15,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="GraphViz.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GraphViz.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GraphViz.java">
           <provider selected="true" editor-type-id="text-editor">
+
             <state relative-caret-position="540">
               <caret line="120" column="5" lean-forward="true" selection-start-line="120" selection-start-column="5" selection-end-line="120" selection-end-column="5" />
+            </state>
+            <state relative-caret-position="720">
+              <caret line="146" column="21" lean-forward="false" selection-start-line="146" selection-start-column="21" selection-end-line="146" selection-end-column="21" />
+
               <folding>
                 <element signature="method#GraphViz#0;class#GraphViz#0" expanded="false" />
                 <element signature="method#getGraph#0;class#GraphViz#0" expanded="false" />
@@ -35,11 +40,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
+
             <state relative-caret-position="390">
               <caret line="29" column="21" lean-forward="false" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+            </state>
+            <state relative-caret-position="450">
+              <caret line="31" column="35" lean-forward="true" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+
               <folding>
                 <element signature="class#8406:8802" expanded="false" />
                 <element signature="method#main#0;class#Main#0" expanded="false" />
@@ -109,11 +119,19 @@
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
+
                 <marker date="1507992704063" expanded="true" signature="87682:87725" ph="..." />
                 <marker date="1507992704063" expanded="true" signature="87682:87742" ph="..." />
                 <marker date="1507992704063" expanded="true" signature="87682:87760" ph="..." />
                 <marker date="1507992704063" expanded="true" signature="87682:87773" ph="..." />
                 <marker date="1507992704063" expanded="true" signature="87682:87788" ph="..." />
+
+                <marker date="1507977307388" expanded="true" signature="87690:87750" ph="..." />
+                <marker date="1507977307388" expanded="true" signature="87690:87768" ph="..." />
+                <marker date="1507977307388" expanded="true" signature="87690:87781" ph="..." />
+                <marker date="1507977307388" expanded="true" signature="87690:87796" ph="..." />
+                <marker date="1507977307388" expanded="true" signature="87690:87733" ph="..." />
+
               </folding>
             </state>
           </provider>
@@ -168,9 +186,15 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+
       <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="Scope" />
+
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -203,7 +227,11 @@
           <select />
         </subPane>
       </pane>
+
       <pane id="AndroidView" />
+
+      <pane id="PackagesPane" />
+
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -360,12 +388,20 @@
       <workItem from="1506507107572" duration="285000" />
       <workItem from="1507967915819" duration="3000" />
       <workItem from="1507968138959" duration="80000" />
+
       <workItem from="1507992688983" duration="19000" />
+
+      <workItem from="1507974642589" duration="2474000" />
+
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+
     <option name="totallyTimeSpent" value="63971000" />
+
+    <option name="totallyTimeSpent" value="66426000" />
+
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
@@ -1264,19 +1300,50 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+
             <marker date="1507992704063" expanded="true" signature="87682:87725" ph="..." />
             <marker date="1507992704063" expanded="true" signature="87682:87742" ph="..." />
             <marker date="1507992704063" expanded="true" signature="87682:87760" ph="..." />
             <marker date="1507992704063" expanded="true" signature="87682:87773" ph="..." />
             <marker date="1507992704063" expanded="true" signature="87682:87788" ph="..." />
+
+            <marker date="1507977307388" expanded="true" signature="87690:87750" ph="..." />
+            <marker date="1507977307388" expanded="true" signature="87690:87768" ph="..." />
+            <marker date="1507977307388" expanded="true" signature="87690:87781" ph="..." />
+            <marker date="1507977307388" expanded="true" signature="87690:87796" ph="..." />
+            <marker date="1507977307388" expanded="true" signature="87690:87733" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GraphViz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="146" column="21" lean-forward="false" selection-start-line="146" selection-start-column="21" selection-end-line="146" selection-end-column="21" />
+          <folding>
+            <element signature="method#GraphViz#0;class#GraphViz#0" expanded="false" />
+            <element signature="method#getGraph#0;class#GraphViz#0" expanded="false" />
+            <element signature="method#writeGraphToFile#0;class#GraphViz#0" expanded="false" />
+            <element signature="method#writeGraphToFile#1;class#GraphViz#0" expanded="false" />
+            <element signature="method#get_img_stream#0;class#GraphViz#0" expanded="false" />
+            <element signature="method#writeDotSourceToFile#0;class#GraphViz#0" expanded="false" />
+            <element signature="e#3635#3636#0" expanded="true" />
+            <element signature="e#3671#3672#0" expanded="true" />
+            <element signature="method#readSource#0;class#GraphViz#0" expanded="false" />
+
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+
         <state relative-caret-position="390">
           <caret line="29" column="21" lean-forward="false" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        </state>
+        <state relative-caret-position="450">
+          <caret line="31" column="35" lean-forward="true" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+
           <folding>
             <element signature="class#8406:8802" expanded="false" />
             <element signature="method#main#0;class#Main#0" expanded="false" />
@@ -1299,6 +1366,7 @@
         </state>
       </provider>
     </entry>
+
     <entry file="file://$PROJECT_DIR$/src/GraphViz.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -1317,5 +1385,6 @@
         </state>
       </provider>
     </entry>
+
   </component>
 </project>
