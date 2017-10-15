@@ -25,7 +25,7 @@ public class Main {
     private String[][] edges;
     private int[][] edgeWeight;
     private int[] dist;     // 表示当前点到源点的最短路径长度
-    private int[] prev;     // 记录当前点的前一个结点
+    private int[] prev;     // 记录当前点的前一点
     private int[][] c;   // 记录图的两点间路径长度
     private int line;             // 图的结点数和路径数
     public  int flag=0;
