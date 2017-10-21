@@ -2,8 +2,8 @@ import com.sun.corba.se.impl.orbutil.graph.Graph;
 
 import java.io.*;
 import javax.swing.*;
-import javax.swing.event.DocumentEvent;
-import javax.swing.event.DocumentListener;
+//import javax.swing.event.DocumentEvent;
+//import javax.swing.event.DocumentListener;
 import javax.swing.text.BadLocationException;
 import javax.swing.text.Document;
 import javax.swing.text.SimpleAttributeSet;
@@ -17,8 +17,8 @@ import java.util.Arrays;
 import java.util.List;
 
 
-public class Main {
-    private final  int maxnum=1000;
+public class Main { //主函数（动态）
+    private final  int maxnum = 1000;
     private final  int maxint = 999999;
     private int vexs_number;
     private String[] vexs;
@@ -161,7 +161,7 @@ public class Main {
                             jFrame.getContentPane().add(messagePane, BorderLayout.CENTER);//进行布局
                             jFrame.getContentPane().add(insertBtn, BorderLayout.SOUTH);
 
-                            SimpleAttributeSet attrset = new SimpleAttributeSet();//设置字体大小
+                            SimpleAttributeSet attrset = new SimpleAttributeSet(); //设置字体大小
                             StyleConstants.setFontSize(attrset, 16);
 
                             JScrollPane jsp = new JScrollPane(messagePane);//滚动条
@@ -171,7 +171,9 @@ public class Main {
                                 @Override
                                 public void actionPerformed(ActionEvent e) {
                                     String str;
-                                    if (list.size() != 0) str = list.get(0);
+                                    if (list.size() != 0){
+                                        str = list.get(0);
+                                    }
                                     else str = new String("遍历已经结束");
 
                                     Document docs = messagePane.getDocument();//获得文本对象
@@ -239,8 +241,7 @@ public class Main {
         File f1 = new File("f:\\Graph." + type);
         gv.writeGraphToFile( gv.getGraph( gv.getDotSource(), type ), f1);
     }
-     String[] getWord(File file) throws Exception//从文件中读取
-    {
+     String[] getWord(File file) throws Exception{  //从文件中读取
         int i = 0;
         String temp[] = new String[1000];
         if(file.exists()) {
@@ -363,7 +364,9 @@ public class Main {
                         weight++;
                     }
                     this.edgeWeight[i][j] = weight;
-                    if(weight!=0) this.line+=1;
+                    if(weight!=0) {
+                        this.line+=1;
+                    }
                 }
             }
 
@@ -489,11 +492,12 @@ public class Main {
         this.prev=new int[maxnum];     // 记录当前点的前一个结点
         this.c=new int[maxnum][maxnum];   // 记录图的两点间路径长度
         int[] s=new int[maxnum];    // 判断是否已存入该点到S集合中
-        for(int i=0; i<this.vexs_number;i++)//将邻接矩阵传入c中当做最原始的两点之间路径的长度
-            for(int j=0;j<this.vexs_number;j++){
-                if(this.edgeWeight[i][j]==0) c[i][j]=maxint;
-                else   c[i][j]=edgeWeight[i][j];
+        for(int i=0; i<this.vexs_number;i++) {//将邻接矩阵传入c中当做最原始的两点之间路径的长度
+            for (int j = 0; j < this.vexs_number; j++) {
+                if (this.edgeWeight[i][j] == 0) c[i][j] = maxint;
+                else c[i][j] = edgeWeight[i][j];
             }
+        }
         for(int i=0; i<n; ++i)
         {
             dist[i] = c[v][i];
@@ -571,4 +575,3 @@ public class Main {
           return  str;
     }
 }
-//加入git管理
